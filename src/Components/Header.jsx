@@ -9,7 +9,7 @@ import close from "../Assets/close.svg"
 // import {logo,menu,close} from "../Assets"
 import { navLinks } from "../Constants";
 
-const Navbar = () => {
+const Header = () => {
     const [active,setActive] = useState("")
   return (
     <>
@@ -33,4 +33,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default Header;

@@ -5,7 +5,7 @@ import Contact from "./Components/Contact.jsx";
 import Feedback from "./Components/Feedback.jsx";
 import Project from "./Components/Project.jsx";
 import SkillSet from "./Components/SkillSet.jsx";
-import Navbar from "./Components/Header.jsx";
+import Header from "./Components/Header.jsx";
 
 // import {About, Experience, Contact, Feedback, Project, skillSet} from "./Components"
 
@@ -13,8 +13,8 @@ const App = () => {
   return (
     <BrowserRouter>
       <div>
-        <Navbar />
-        <div>
+        <Header />
+        <div className=''>
           <About />
           <Contact />
         </div>
